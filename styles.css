@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -7,27 +7,49 @@ body {
     color: #333;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
 header {
-    background: #333;
+    background: #4CAF50;
     color: #fff;
-    padding: 1rem 0;
+    padding: 2rem 0;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
 }
 
 main {
+    background: #fff;
     padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-section {
-    margin-bottom: 2rem;
+h2 {
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    margin-bottom: 1rem;
 }
 
 .work-item {
-    background: #fff;
+    background: #f9f9f9;
     padding: 1rem;
     margin-bottom: 1rem;
     border: 1px solid #ddd;
@@ -38,16 +60,28 @@ section {
     margin-top: 0;
 }
 
+.work-item a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.work-item a:hover {
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #333;
+    background: #4CAF50;
     color: #fff;
+    margin-top: 2rem;
 }
 
 footer a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 footer a:hover {
